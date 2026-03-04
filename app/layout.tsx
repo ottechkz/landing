@@ -5,11 +5,11 @@ import type { ReactNode } from 'react';
 export const metadata: Metadata = {
   title: 'Ottech | Automation, MVPs, and AI Integrations',
   description:
-    'Ottech helps startups and teams launch automation systems, MVP products, and practical AI integrations.',
+    'Ottech replaces Excel, WhatsApp, and manual workflows with simple web systems. Automation, MVPs, and AI where it helps.',
   openGraph: {
     title: 'Ottech | Automation, MVPs, and AI Integrations',
     description:
-      'Engineering partner for fast teams building automation systems, MVPs, and AI-powered products.',
+      'We replace spreadsheets, group chats, and manual workflows with simple web systems. AI where it helps.',
     type: 'website',
     url: 'https://ottech.kz',
     siteName: 'Ottech',
