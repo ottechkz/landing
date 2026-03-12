@@ -1,17 +1,35 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
+import { useRouter, usePathname } from "@/i18n/routing";
 
-const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#how-we-work", label: "How we work" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
-];
+const localeLabels: Record<string, string> = {
+  ru: "РУ",
+  kz: "ҚАЗ",
+  en: "EN",
+};
+
+const locales = ["ru", "kz", "en"] as const;
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const t = useTranslations("header");
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const navLinks = [
+    { href: "#services", label: t("services") },
+    { href: "#how-we-work", label: t("howWeWork") },
+    { href: "#portfolio", label: t("portfolio") },
+    { href: "#about", label: t("about") },
+    { href: "#contact", label: t("contact") },
+  ];
+
+  function switchLocale(next: string) {
+    router.replace(pathname, { locale: next });
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-gray-100 bg-white/90 backdrop-blur-sm">
@@ -35,8 +53,27 @@ export default function Header() {
             href="#contact"
             className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-dark"
           >
-            Book a call
+            {t("bookCall")}
           </a>
+
+          {/* Language switcher */}
+          <div className="flex items-center gap-1 font-mono text-xs">
+            {locales.map((loc, i) => (
+              <span key={loc} className="flex items-center gap-1">
+                {i > 0 && <span className="text-gray-300">|</span>}
+                <button
+                  onClick={() => switchLocale(loc)}
+                  className={`transition-colors ${
+                    locale === loc
+                      ? "font-bold text-primary"
+                      : "text-gray-400 hover:text-foreground"
+                  }`}
+                >
+                  {localeLabels[loc]}
+                </button>
+              </span>
+            ))}
+          </div>
         </nav>
 
         {/* Mobile hamburger */}
@@ -76,8 +113,30 @@ export default function Header() {
               className="rounded-lg bg-primary px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-primary-dark"
               onClick={() => setMenuOpen(false)}
             >
-              Book a call
+              {t("bookCall")}
             </a>
+
+            {/* Mobile language switcher */}
+            <div className="flex items-center gap-2 border-t border-gray-100 pt-2 font-mono text-xs">
+              {locales.map((loc, i) => (
+                <span key={loc} className="flex items-center gap-2">
+                  {i > 0 && <span className="text-gray-300">|</span>}
+                  <button
+                    onClick={() => {
+                      switchLocale(loc);
+                      setMenuOpen(false);
+                    }}
+                    className={`transition-colors ${
+                      locale === loc
+                        ? "font-bold text-primary"
+                        : "text-gray-400 hover:text-foreground"
+                    }`}
+                  >
+                    {localeLabels[loc]}
+                  </button>
+                </span>
+              ))}
+            </div>
           </div>
         </nav>
       )}

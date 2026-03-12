@@ -1,35 +1,23 @@
-const services = [
-  {
-    title: "Automation Systems",
-    description:
-      "We turn Excel sheets, WhatsApp threads, and manual processes into clean web dashboards and workflows that run themselves.",
-    icon: "⚙️",
-  },
-  {
-    title: "MVP Development",
-    description:
-      "Got a product idea? We build a working first version fast — validated, functional, ready for real users.",
-    icon: "🚀",
-  },
-  {
-    title: "AI Integrations",
-    description:
-      "We add AI where it actually helps: smart forms, document processing, chatbots, and data analysis built into your tools.",
-    icon: "🤖",
-  },
-];
+import { getTranslations } from "next-intl/server";
 
-export default function Services() {
+const icons = ["⚙️", "🚀", "🤖"];
+
+export default async function Services() {
+  const t = await getTranslations("services");
+
+  const services = [
+    { title: t("item0.title"), description: t("item0.description"), icon: icons[0] },
+    { title: t("item1.title"), description: t("item1.description"), icon: icons[1] },
+    { title: t("item2.title"), description: t("item2.description"), icon: icons[2] },
+  ];
+
   return (
     <section id="services" className="bg-gray-50 px-6 py-20 md:py-28">
       <div className="mx-auto max-w-6xl">
         <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-          What we build
+          {t("heading")}
         </h2>
-        <p className="mt-4 max-w-xl text-gray-600">
-          Three areas we focus on — all aimed at removing friction from your
-          daily operations.
-        </p>
+        <p className="mt-4 max-w-xl text-gray-600">{t("description")}</p>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {services.map((service) => (
             <div

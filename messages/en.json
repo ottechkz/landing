@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "title": "Ottech — Automation, MVPs & AI for your business",
+    "description": "We replace Excel, WhatsApp, and manual workflows with simple web systems. AI where it helps. Based in Kazakhstan, working worldwide."
+  },
+  "header": {
+    "services": "Services",
+    "howWeWork": "How we work",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "bookCall": "Book a call"
+  },
+  "hero": {
+    "heading": "We replace spreadsheets and\u00a0manual workflows with",
+    "headingHighlight": "simple web systems",
+    "subheading": "Ottech builds automation tools, MVPs, and AI integrations for small and medium businesses. Less chaos, more clarity.",
+    "bookCall": "Book a call",
+    "messageUs": "Message us"
+  },
+  "services": {
+    "heading": "What we build",
+    "description": "Three areas we focus on — all aimed at removing friction from your daily operations.",
+    "item0": {
+      "title": "Automation Systems",
+      "description": "We turn Excel sheets, WhatsApp threads, and manual processes into clean web dashboards and workflows that run themselves."
+    },
+    "item1": {
+      "title": "MVP Development",
+      "description": "Got a product idea? We build a working first version fast — validated, functional, ready for real users."
+    },
+    "item2": {
+      "title": "AI Integrations",
+      "description": "We add AI where it actually helps: smart forms, document processing, chatbots, and data analysis built into your tools."
+    }
+  },
+  "howWeWork": {
+    "heading": "How we work",
+    "description": "A simple, transparent process from first call to launch and beyond.",
+    "step0": {
+      "title": "Discovery call",
+      "description": "We learn about your business, current workflows, and pain points. No jargon, just a conversation."
+    },
+    "step1": {
+      "title": "Proposal & scope",
+      "description": "We define what to build, timeline, and cost. You get a clear document — no surprises later."
+    },
+    "step2": {
+      "title": "Build in sprints",
+      "description": "We ship working software every 1–2 weeks. You see progress and give feedback continuously."
+    },
+    "step3": {
+      "title": "Launch & handoff",
+      "description": "We deploy, train your team, and hand over everything. You own the code and the data."
+    },
+    "step4": {
+      "title": "Support & iterate",
+      "description": "Need changes or new features? We stay available for ongoing support and improvements."
+    }
+  },
+  "portfolio": {
+    "heading": "Portfolio",
+    "description": "A few examples of what we build. Real projects, real results.",
+    "screenshotPlaceholder": "[Screenshot placeholder]",
+    "item0": {
+      "title": "Inventory Dashboard",
+      "description": "A real-time inventory tracking system that replaced a shared Excel file for a wholesale distributor."
+    },
+    "item1": {
+      "title": "Client Intake Form + CRM",
+      "description": "An AI-powered intake form that auto-categorizes requests and feeds into a lightweight CRM for a service company."
+    }
+  },
+  "about": {
+    "heading": "About us",
+    "description": "Ottech is a two-person software agency based in Kazakhstan. We work with small and medium businesses to replace manual processes with reliable software.",
+    "member0": {
+      "role": "Engineering & Product",
+      "bio": "Full-stack developer focused on building practical business tools. Believes software should save time, not create more work."
+    },
+    "member1": {
+      "role": "Engineering & AI",
+      "bio": "Software engineer with a focus on AI integrations and automation. Turns complex workflows into simple, reliable systems."
+    }
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "description": "Ready to simplify your workflows? Reach out and we'll get back to you within 24 hours.",
+    "emailLabel": "Email",
+    "telegramLabel": "Telegram",
+    "whatsappLabel": "WhatsApp",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailFieldLabel": "Email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us about your project or problem...",
+    "sendButton": "Send message"
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "email": "Email",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
+  }
+}
