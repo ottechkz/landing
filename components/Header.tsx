@@ -6,11 +6,11 @@ import { useRouter, usePathname } from "@/i18n/routing";
 
 const localeLabels: Record<string, string> = {
   ru: "РУ",
-  kz: "ҚАЗ",
   en: "EN",
+  kz: "қАЗ",
 };
 
-const locales = ["ru", "kz", "en"] as const;
+const locales = ["ru", "en", "kz"] as const;
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
