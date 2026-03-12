@@ -75,12 +75,12 @@
     "heading": "About us",
     "description": "Ottech is a two-person software agency based in Kazakhstan. We work with small and medium businesses to replace manual processes with reliable software.",
     "member0": {
-      "role": "Engineering & Product",
-      "bio": "Full-stack developer focused on building practical business tools. Believes software should save time, not create more work."
+      "role": "Co-founder & CTO",
+      "bio": "Backend engineer and CTO with 5+ years across fintech, health tech, and AI. Currently leads engineering at AIDENTIS; previously built ML features for Yandex Alice. Specialises in backend systems, payment integrations, and applied ML."
     },
     "member1": {
-      "role": "Engineering & AI",
-      "bio": "Software engineer with a focus on AI integrations and automation. Turns complex workflows into simple, reliable systems."
+      "role": "Co-founder & ML Engineer",
+      "bio": "Machine learning researcher with 5+ years building data-driven products. Currently researcher at CEREBRA; previously at Advanced Data Analytics. Specialises in ML models, data pipelines, and AI-powered features."
     }
   },
   "contact": {

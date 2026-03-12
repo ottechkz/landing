@@ -1,13 +1,17 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
-const names = ["[Founder 1]", "[Founder 2]"];
+const members = [
+  { name: "Yerulan Abaiuly", photo: "/screenshots/me.jpg" },
+  { name: "Iglymov Alisher", photo: "/screenshots/maboy.jpg" },
+];
 
 export default async function About() {
   const t = await getTranslations("about");
 
   const team = [
-    { name: names[0], role: t("member0.role"), bio: t("member0.bio") },
-    { name: names[1], role: t("member1.role"), bio: t("member1.bio") },
+    { ...members[0], role: t("member0.role"), bio: t("member0.bio") },
+    { ...members[1], role: t("member1.role"), bio: t("member1.bio") },
   ];
 
   return (
@@ -23,10 +27,13 @@ export default async function About() {
               key={member.name}
               className="rounded-xl border border-gray-200 bg-white p-8"
             >
-              {/* Avatar placeholder */}
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gray-100 font-mono text-sm text-gray-400">
-                foto
-              </div>
+              <Image
+                src={member.photo}
+                alt={member.name}
+                width={64}
+                height={64}
+                className="h-16 w-16 rounded-full object-cover"
+              />
               <h3 className="mt-4 text-lg font-semibold">{member.name}</h3>
               <p className="text-sm font-medium text-primary">{member.role}</p>
               <p className="mt-3 leading-relaxed text-gray-600">{member.bio}</p>
