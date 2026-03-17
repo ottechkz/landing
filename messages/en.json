@@ -14,7 +14,7 @@
   "hero": {
     "heading": "We replace spreadsheets and\u00a0manual workflows with",
     "headingHighlight": "simple web systems",
-    "subheading": "Ottech builds automation tools and AI integrations for small and medium businesses. Less chaos, more clarity.",
+    "subheading": "Ottech helps small and medium businesses better control operations using web systems and AI tools.",
     "bookCall": "Book a call",
     "messageUs": "Message us"
   },
@@ -23,7 +23,7 @@
     "description": "Three areas we focus on — all aimed at removing friction from your daily operations.",
     "item0": {
       "title": "Automation Systems",
-      "description": "We turn Excel sheets, WhatsApp threads, and manual processes into clean web dashboards and workflows that run themselves."
+      "description": "We replace Excel, spreadsheets, and manual processes with web systems: dashboards, CRMs, order tracking, and other operational tools."
     },
     "item1": {
       "title": "MVP Development",
@@ -31,7 +31,7 @@
     },
     "item2": {
       "title": "AI Integrations",
-      "description": "We add AI where it actually helps: smart forms, document processing, chatbots, and data analysis built into your tools."
+      "description": "We add AI where it actually brings value: automatic document processing, data analysis, metrics forecasting, intelligent chatbots, and routine task automation."
     }
   },
   "howWeWork": {
@@ -39,11 +39,11 @@
     "description": "A simple, transparent process from first call to launch and beyond.",
     "step0": {
       "title": "Discovery call",
-      "description": "We learn about your business, current workflows, and pain points. No jargon, just a conversation."
+      "description": "We learn about your business, current processes, and pain points."
     },
     "step1": {
       "title": "Proposal & scope",
-      "description": "We define what to build, timeline, and cost. You get a clear document — no surprises later."
+      "description": "We define what to build, timeline, and cost. You get a clear document."
     },
     "step2": {
       "title": "Build in sprints",
@@ -76,12 +76,12 @@
     "description": "Ottech is a two-person software agency based in Kazakhstan. We work with small and medium businesses to replace manual processes with reliable software.",
     "member0": {
       "name": "Yerulan Abaiuly",
-      "role": "Co-founder & CTO",
+      "role": "Co-founder, Fullstack Developer",
       "bio": "Backend engineer and CTO with 5+ years across fintech, health tech, and AI. Currently leads engineering at AIDENTIS; previously built ML features for Yandex Alice. Specialises in backend systems, payment integrations, and applied ML."
     },
     "member1": {
       "name": "Iglymov Alisher",
-      "role": "Co-founder & ML Engineer",
+      "role": "Co-founder, ML Engineer",
       "bio": "Machine learning researcher with 5+ years building data-driven products. Currently researcher at CEREBRA; previously at Advanced Data Analytics. Specialises in ML models, data pipelines, and AI-powered features."
     }
   },
