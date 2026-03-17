@@ -2,7 +2,7 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 const members = [
-  { name: "Yerulan Abaiuly", photo: "/screenshots/yerulan.jpg" },
+  { name: "Yerulan Abaiuly", photo: "/screenshots/yerulan.png" },
   { name: "Iglymov Alisher", photo: "/screenshots/alisher.png" },
 ];
 
