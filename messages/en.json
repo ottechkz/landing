@@ -14,7 +14,7 @@
   "hero": {
     "heading": "We replace spreadsheets and\u00a0manual workflows with",
     "headingHighlight": "simple web systems",
-    "subheading": "Ottech builds automation tools, MVPs, and AI integrations for small and medium businesses. Less chaos, more clarity.",
+    "subheading": "Ottech builds automation tools and AI integrations for small and medium businesses. Less chaos, more clarity.",
     "bookCall": "Book a call",
     "messageUs": "Message us"
   },
@@ -75,10 +75,12 @@
     "heading": "About us",
     "description": "Ottech is a two-person software agency based in Kazakhstan. We work with small and medium businesses to replace manual processes with reliable software.",
     "member0": {
+      "name": "Yerulan Abaiuly",
       "role": "Co-founder & CTO",
       "bio": "Backend engineer and CTO with 5+ years across fintech, health tech, and AI. Currently leads engineering at AIDENTIS; previously built ML features for Yandex Alice. Specialises in backend systems, payment integrations, and applied ML."
     },
     "member1": {
+      "name": "Iglymov Alisher",
       "role": "Co-founder & ML Engineer",
       "bio": "Machine learning researcher with 5+ years building data-driven products. Currently researcher at CEREBRA; previously at Advanced Data Analytics. Specialises in ML models, data pipelines, and AI-powered features."
     }

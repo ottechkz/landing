@@ -2,16 +2,16 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 const members = [
-  { name: "Yerulan Abaiuly", photo: "/screenshots/yerulan.png" },
-  { name: "Iglymov Alisher", photo: "/screenshots/alisher.png" },
+  { photo: "/screenshots/yerulan.png" },
+  { photo: "/screenshots/alisher.png" },
 ];
 
 export default async function About() {
   const t = await getTranslations("about");
 
   const team = [
-    { ...members[0], role: t("member0.role"), bio: t("member0.bio") },
-    { ...members[1], role: t("member1.role"), bio: t("member1.bio") },
+    { ...members[0], name: t("member0.name"), role: t("member0.role"), bio: t("member0.bio") },
+    { ...members[1], name: t("member1.name"), role: t("member1.role"), bio: t("member1.bio") },
   ];
 
   return (

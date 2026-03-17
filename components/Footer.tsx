@@ -11,13 +11,13 @@ export default async function Footer() {
         </p>
         <div className="flex gap-6">
           <a
-            href="mailto:hello@ottech.kz"
+            href="mailto:a.erulan.97@gmail.com"
             className="transition-colors hover:text-foreground"
           >
             {t("email")}
           </a>
           <a
-            href="https://t.me/ottech"
+            href="https://t.me/teacup42"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-foreground"
@@ -25,7 +25,7 @@ export default async function Footer() {
             {t("telegram")}
           </a>
           <a
-            href="https://wa.me/77001234567"
+            href="https://wa.me/77751450505"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-foreground"
