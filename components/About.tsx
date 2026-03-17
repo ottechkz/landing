@@ -2,8 +2,8 @@ import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
 const members = [
-  { name: "Yerulan Abaiuly", photo: "/screenshots/me.jpg" },
-  { name: "Iglymov Alisher", photo: "/screenshots/maboy.jpg" },
+  { name: "Yerulan Abaiuly", photo: "/screenshots/yerulan.jpg" },
+  { name: "Iglymov Alisher", photo: "/screenshots/alisher.png" },
 ];
 
 export default async function About() {
