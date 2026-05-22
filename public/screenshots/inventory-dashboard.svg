@@ -1,0 +1,58 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Inventory dashboard product mockup</title>
+  <desc id="desc">A polished web dashboard interface with inventory metrics, stock movement charts, and warehouse status panels.</desc>
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <rect x="76" y="68" width="1048" height="664" rx="28" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+  <rect x="76" y="68" width="1048" height="88" rx="28" fill="#f1f5f9"/>
+  <path d="M76 128H1124" stroke="#dbe3ef" stroke-width="2"/>
+  <circle cx="122" cy="112" r="12" fill="#2563eb"/>
+  <circle cx="158" cy="112" r="12" fill="#0f766e"/>
+  <circle cx="194" cy="112" r="12" fill="#f59e0b"/>
+  <rect x="246" y="99" width="214" height="26" rx="13" fill="#e2e8f0"/>
+  <rect x="830" y="96" width="116" height="32" rx="16" fill="#dbeafe"/>
+  <rect x="966" y="96" width="98" height="32" rx="16" fill="#2563eb"/>
+  <text x="274" y="117" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Inventory Control</text>
+  <text x="864" y="118" fill="#1d4ed8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Live sync</text>
+  <text x="994" y="118" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Export</text>
+
+  <rect x="112" y="190" width="230" height="132" rx="18" fill="#eff6ff" stroke="#bfdbfe"/>
+  <rect x="372" y="190" width="230" height="132" rx="18" fill="#ecfdf5" stroke="#bbf7d0"/>
+  <rect x="632" y="190" width="230" height="132" rx="18" fill="#fff7ed" stroke="#fed7aa"/>
+  <rect x="892" y="190" width="196" height="132" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="140" y="230" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="16">Total SKUs</text>
+  <text x="140" y="276" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">4,280</text>
+  <rect x="140" y="292" width="116" height="12" rx="6" fill="#60a5fa"/>
+  <text x="400" y="230" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="16">Orders today</text>
+  <text x="400" y="276" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">312</text>
+  <rect x="400" y="292" width="136" height="12" rx="6" fill="#34d399"/>
+  <text x="660" y="230" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="16">Low stock</text>
+  <text x="660" y="276" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">18</text>
+  <rect x="660" y="292" width="90" height="12" rx="6" fill="#fb923c"/>
+  <text x="920" y="230" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="16">Accuracy</text>
+  <text x="920" y="276" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800">98%</text>
+  <rect x="920" y="292" width="122" height="12" rx="6" fill="#94a3b8"/>
+
+  <rect x="112" y="354" width="622" height="318" rx="22" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="144" y="403" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Stock movement</text>
+  <text x="144" y="432" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="15">Weekly inbound and outbound activity</text>
+  <path d="M154 598C202 566 234 586 282 540C335 488 380 502 420 468C472 425 524 454 572 412C624 368 660 394 698 360" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  <path d="M154 626C205 622 244 604 291 612C343 621 388 574 437 586C490 599 532 548 580 562C624 574 666 522 698 532" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M154 640H698" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M154 520H698" stroke="#edf2f7" stroke-width="2"/>
+  <path d="M154 400H698" stroke="#edf2f7" stroke-width="2"/>
+  <circle cx="420" cy="468" r="12" fill="#2563eb" stroke="#ffffff" stroke-width="5"/>
+  <circle cx="580" cy="562" r="12" fill="#0f766e" stroke="#ffffff" stroke-width="5"/>
+
+  <rect x="766" y="354" width="322" height="318" rx="22" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="798" y="403" fill="#0f172a" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800">Warehouse queue</text>
+  <text x="798" y="432" fill="#64748b" font-family="Arial, Helvetica, sans-serif" font-size="15">Priority tasks for today</text>
+  <rect x="798" y="468" width="258" height="48" rx="14" fill="#f8fafc"/>
+  <rect x="798" y="532" width="258" height="48" rx="14" fill="#f8fafc"/>
+  <rect x="798" y="596" width="258" height="48" rx="14" fill="#f8fafc"/>
+  <circle cx="826" cy="492" r="10" fill="#ef4444"/>
+  <circle cx="826" cy="556" r="10" fill="#f59e0b"/>
+  <circle cx="826" cy="620" r="10" fill="#22c55e"/>
+  <text x="850" y="498" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Reorder alerts</text>
+  <text x="850" y="562" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Packing review</text>
+  <text x="850" y="626" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">Shipment ready</text>
+</svg>

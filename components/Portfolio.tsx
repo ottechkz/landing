@@ -7,8 +7,8 @@ const tags = [
 ];
 
 const screenshots = [
-  "/screenshots/project-1.jpg",
-  "/screenshots/project-2.jpg",
+  "/screenshots/inventory-dashboard.svg",
+  "/screenshots/client-crm.svg",
 ];
 
 export default async function Portfolio() {
@@ -32,15 +32,15 @@ export default async function Portfolio() {
               key={demo.title}
               className="overflow-hidden rounded-xl border border-gray-200 bg-white"
             >
-              <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="block overflow-hidden">
+              <div className="overflow-hidden">
                 <Image
                   src={demo.screenshot}
                   alt={demo.title}
                   width={600}
                   height={400}
-                  className="h-48 w-full object-cover transition-transform duration-300 hover:scale-105"
+                  className="h-auto w-full transition-transform duration-300 hover:scale-105"
                 />
-              </a>
+              </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold">{demo.title}</h3>
                 <p className="mt-2 leading-relaxed text-gray-600">
